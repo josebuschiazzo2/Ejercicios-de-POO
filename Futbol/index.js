@@ -5,9 +5,6 @@ var Person = /** @class */ (function () {
         this.passport = ppassport;
         this.dbirth = pdbirth;
     }
-    Person.prototype.getAge = function () {
-        return 1; // Math.ceil(Math.abs(Date.now()-this.dbirth)/(1000*3600*24*365));
-    };
     Person.prototype.setName = function (Pname) {
         this.name = Pname;
     };

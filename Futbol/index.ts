@@ -13,10 +13,6 @@ class Person
         this.dbirth=pdbirth;
     }
 
-    public getAge():number //no se si lo voy a usar, pero esta bueno
-    {
-           return 1;// Math.ceil(Math.abs(Date.now()-this.dbirth)/(1000*3600*24*365));
-    }
     public setName(Pname:string):void
     {
            this.name=Pname;
